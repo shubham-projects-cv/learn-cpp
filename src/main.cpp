@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-extern int x;
-
 int main() {
-    cout << "Hello1" << endl;
-    cout << x;
+    int fav_num;
+    cout << "Enter num" << endl;
+    cin >> fav_num;
+    cout << "Yes, " << fav_num << " is my favorite num";
     return 0;
 }
